@@ -175,6 +175,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        // Google Driver Provider
+        App\Providers\GoogleDriveServiceProvider::class,
+
     ],
 
     /*
